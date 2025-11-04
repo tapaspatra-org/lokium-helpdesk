@@ -1,0 +1,39 @@
+name: 🐛 Bug report
+description: Report a defect you found in the tool
+title: "[Bug]: "
+labels: [bug]
+body:
+  - type: input
+    id: summary
+    attributes:
+      label: Short summary
+      description: Briefly describe the issue
+      placeholder: "App crashes when uploading file"
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: What did you do before the bug happened?
+      placeholder: |
+        1. Go to ...
+        2. Click on ...
+        3. See error
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+      placeholder: "It should upload successfully"
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behavior
+      placeholder: "It shows an error message"
+  - type: input
+    id: version
+    attributes:
+      label: Tool version / Environment
+      placeholder: "v1.0.2 / Windows 11 / Chrome 130"
