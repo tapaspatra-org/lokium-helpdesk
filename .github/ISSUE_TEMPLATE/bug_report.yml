@@ -8,7 +8,7 @@ body:
     attributes:
       label: Short summary
       description: Briefly describe the issue
-      placeholder: "App crashes when uploading file"
+      placeholder: "App crashes while generating files"
     validations:
       required: true
   - type: textarea
@@ -26,7 +26,7 @@ body:
     id: expected
     attributes:
       label: Expected behavior
-      placeholder: "It should upload successfully"
+      placeholder: "It should generate files successfully"
   - type: textarea
     id: actual
     attributes:
@@ -36,4 +36,4 @@ body:
     id: version
     attributes:
       label: Tool version / Environment
-      placeholder: "v1.0.2 / Windows 11 / Chrome 130"
+      placeholder: " beta / v0.0.1 / v1.0.2 "
