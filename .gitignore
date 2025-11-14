@@ -1,0 +1,42 @@
+# Build artifacts
+build/
+dist/
+*.egg-info/
+*.so
+*.pyd
+*.dll
+
+# Obfuscation output
+build_cython/
+dist_cython/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Secrets
+.env
+*.key
+*.pem
+
+# Test outputs
+.pytest_cache/
+.coverage
+htmlcov/
